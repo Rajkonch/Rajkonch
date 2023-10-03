@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21FFC107"
+    tools:context=".entermobilenumberone">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal"
+       android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+           android:layout_marginTop="90dp"
+           android:src="@drawable/send"
+           android:id="@+id/image_sendotp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:text="@string/otp_verification"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="8dp"
+           android:layout_marginStart="50dp"
+           android:layout_marginEnd="50dp"
+           android:layout_marginLeft="50dp"
+           android:text="@string/wwe_will_send_you_an_one_time_otp_on_this_given_mobile_number"
+           android:textSize="14sp"
+           android:gravity="center"
+           android:textColor="@color/colortextsecond"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginLeft="30dp"
+           android:text="@string/enter_mobile_number"
+           android:textSize="14sp"
+           android:gravity="center"
+           android:textColor="@color/colortextsecond"
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginEnd="60dp"
+           android:gravity="center"
+           android:orientation="horizontal"
+           android:background="@drawable/backgroundbox"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:gravity="center"
+               android:text="+91 "
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold"/>
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:background="@null"
+               android:hint="6387718208"
+               android:imeOptions="actionDone"
+               android:importantForAutofill="no"
+               android:inputType="number"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:maxLength="10"
+               android:id="@+id/imput_mobile_number"/>
+       </LinearLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <Button
+               android:id="@+id/buttongetotp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="30dp"
+               android:layout_marginStart="30dp"
+
+               android:layout_marginEnd="30dp"
+               android:layout_marginBottom="30dp"
+               android:background="@drawable/backgroundbutton"
+               android:text="@string/get_otp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:gravity="center"
+
+               />
+           <ProgressBar
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center"
+               android:visibility="gone"
+               android:id="@+id/progressbar_sending_otp"
+               />
+       </FrameLayout>
+
+
+
+
+   </LinearLayout>
+
+</ScrollView>
