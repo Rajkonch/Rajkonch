@@ -6,7 +6,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rajkonch&label=Profile%20views&color=0e75b6&style=flat" alt="rajkonch" /> </p>
 
-- 🌱 I’m currently learning **Kotlin and Flutter**
+- 🌱 I’m currently learning **Flutter**
 
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/rajkumar-kushwaha-971917207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app](https://www.linkedin.com/in/rajkumar-kushwaha-971917207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
