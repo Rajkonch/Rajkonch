@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **rajkumarkonch111@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1QG8OzdIG-GBiIpCUg4HREa3wP_AWZ5mX/view?usp=sharing](https://drive.google.com/file/d/1QG8OzdIG-GBiIpCUg4HREa3wP_AWZ5mX/view?usp=sharing)
+- 📄 Know about my experiences https://drive.google.com/file/d/1R2zPtB1py-u7zwtQEi-Ip6P3DPN0mXtw/view?usp=sharing
 
 - ⚡ Fun fact **I am funny 😊**
 
